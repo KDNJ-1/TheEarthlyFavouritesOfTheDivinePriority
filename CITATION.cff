@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this dataset, web portal, or computational workflow, please cite it as below."
+authors:
+  - family-names: "Jha"
+    given-names: "Kumudini Dev Narayan"
+    affiliation: "Department of Botany, KBCNMU Affiliated Moolji Jaitha Autonomous College, Jalgaon, Maharashtra, India"
+title: "TheEarthlyFavouritesOfTheDivinePriority: Dual-Mode In Silico & Ethnopharmacology Atlas of Cynodon dactylon (Durva)"
+version: 1.0.0
+date-released: 2026-11-07
+url: "https://github.com/KumudiniJha/TheEarthlyFavouritesOfTheDivinePriority"
+license: MIT
+keywords:
+  - Cynodon dactylon
+  - Durva
+  - Cheminformatics
+  - Molecular Docking
+  - Network Pharmacology
+  - Ethnopharmacology

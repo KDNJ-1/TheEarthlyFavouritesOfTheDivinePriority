@@ -1,0 +1,5 @@
+stage,query_used,records_found,records_excluded,reason_for_exclusion
+1. Identification (Naive Query),in silico experimentation on durva,42,41,Auto-stemmed to synthetic antibody drug 'Durvalumab' (PD-L1 inhibitor) or grass urea gene 'DUR3'
+2. Identification (Taxonomic Query),"""Cynodon dactylon"" AND (""phytochemical"" OR ""GC-MS"" OR ""HPLC"" OR ""in silico"" OR ""wound healing"")",128,64,"Duplicates, non-peer-reviewed notes, or purely agronomic lawn-mowing studies"
+3. Screening (Title & Abstract),Filtered for analytical characterization (HPLC/GC-MS/HPTLC) or experimental bioassays,64,49,Crude extract qualitative tests only without identified chemical markers or clear bioassay endpoints
+4. Included in Database v1,Full-text verified studies with DOIs (2009-2026),15,0,"Included in Master Literature Anchor (Singh 2021, Patil 2025, Santosh 2026, Waghmare 2025, etc.)"

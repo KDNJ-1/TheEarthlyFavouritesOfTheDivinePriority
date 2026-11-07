@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TheEarthlyFavouritesOfTheDivinePriority | Durva (Cynodon dactylon) Atlas</title>
+  <style>
+    :root {
+      --bg-dark: #081C15;
+      --green-mid: #1B4332;
+      --green-light: #52B788;
+      --gold: #D4AF37;
+      --text-light: #F8F9FA;
+    }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, sans-serif;
+      background: linear-gradient(135deg, var(--bg-dark), var(--green-mid));
+      color: var(--text-light);
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 3.5rem 1.5rem 2rem;
+      border-bottom: 2px solid rgba(212, 175, 55, 0.3);
+    }
+    h1 { color: var(--gold); font-size: 2.2rem; margin-bottom: 0.5rem; }
+    .subtitle { color: #D8F3DC; font-size: 1.15rem; max-width: 820px; margin: 0 auto 1.5rem; }
+    .btn-group { display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; margin-top: 1.2rem; }
+    .btn {
+      padding: 0.75rem 1.4rem;
+      border-radius: 8px;
+      font-weight: 700;
+      text-decoration: none;
+      cursor: pointer;
+      border: none;
+      font-size: 1rem;
+    }
+    .btn-explorer { background: var(--green-light); color: #081C15; }
+    .btn-scientist { background: var(--gold); color: #081C15; }
+    .btn-lang { background: transparent; color: var(--gold); border: 1.5px solid var(--gold); }
+    .container { max-width: 1050px; margin: 2rem auto; padding: 0 1.5rem; }
+    .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.2rem; }
+    .card {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(116, 198, 157, 0.3);
+      border-radius: 12px;
+      padding: 1.3rem;
+    }
+    .card h3 { color: var(--gold); margin-top: 0; }
+    .badge { background: var(--green-light); color: #081C15; padding: 0.2rem 0.6rem; border-radius: 6px; font-size: 0.8rem; font-weight: bold; }
+    footer { text-align: center; padding: 2rem; font-size: 0.9rem; color: #95D5B2; border-top: 1px solid rgba(255,255,255,0.1); margin-top: 3rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🌿 TheEarthlyFavouritesOfTheDivinePriority</h1>
+    <p class="subtitle" id="sub-text">
+      Dual-Mode In Silico &amp; Ethnopharmacology Atlas of Sacred Durva Grass (<em>Cynodon dactylon</em> (L.) Pers.)<br/>
+      पवित्र दूर्वा घास का द्वि-मोड इन-सिलिको एवं वानस्पतिक अनुसंधान पोर्टल
+    </p>
+    <div class="btn-group">
+      <a href="#explorer-section" class="btn btn-explorer">🎮 Enter Explorer Mode (जिज्ञासु मोड)</a>
+      <a href="#scientist-section" class="btn btn-scientist">🔬 Enter Scientist Mode (वैज्ञानिक मोड)</a>
+      <a href="../data/durva_compounds_v1.csv" class="btn btn-lang">📥 Download CSV Dataset (v1.0)</a>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="card" style="margin-bottom: 1.5rem; border-color: var(--gold);">
+      <h3>⚠️ Critical Bioinformatics Disambiguation: <em>Cynodon dactylon</em> ≠ Durvalumab</h3>
+      <p>
+        Searching the abbreviated vernacular word <strong>"durva"</strong> in clinical search engines triggers false auto-stemming to
+        <strong>Durvalumab</strong> (a synthetic anti-PD-L1 oncology antibody) or <strong>DUR3</strong> (a grass urea transporter gene).
+        This repository strictly curates <strong><em>Cynodon dactylon</em> (L.) Pers.</strong> (Poaceae, NCBI TaxID: 28909) with 100% DOI-verified provenance.
+      </p>
+    </div>
+
+    <h2 id="explorer-section">🎮 Door 1: Explorer Mode Highlights (लोकप्रिय विज्ञान एवं इंटरएक्टिव कार्ड्स)</h2>
+    <div class="card-grid">
+      <div class="card">
+        <span class="badge">CD_001 • High Evidence</span>
+        <h3>Luteolin (ल्यूटियोलिन)</h3>
+        <p><strong>Superpower:</strong> Master Tissue Builder &amp; Inflammation Shield. Downregulates TNF-α &amp; IFN-γ; docks to MMP-9 wound target at <strong>-9.1 kcal/mol</strong>.</p>
+      </div>
+      <div class="card">
+        <span class="badge">CD_003 • High Evidence</span>
+        <h3>Orientin (ओरिएंटिन)</h3>
+        <p><strong>Superpower:</strong> Angiogenesis Spark. Stimulates new blood vessel formation at 10 µg/mL (Patil et al., 2025). Ideal for topical Swarasa application.</p>
+      </div>
+      <div class="card">
+        <span class="badge">CD_005 • 0.48% RP-HPLC Marker</span>
+        <h3>p-Coumaric Acid (पी-कौमारिक अम्ल)</h3>
+        <p><strong>Superpower:</strong> DNA Guardian. Achieves 60–75% free-radical scavenging and shields human DNA from doxorubicin damage (Singh et al., 2021).</p>
+      </div>
+    </div>
+
+    <h2 id="scientist-section" style="margin-top: 2.5rem;">🔬 Door 2: Scientist Mode &amp; Evidence Triangulation</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>1. PRISMA &amp; Provenance (v1.0)</h3>
+        <p>12 curated phytochemicals + 2 clinical Positive Controls (Celecoxib, Albendazole). Every row linked to primary RP-HPLC, HPTLC, or GC-MS DOIs (2009–2026).</p>
+      </div>
+      <div class="card">
+        <h3>2. Retrospective ROC-AUC Benchmark</h3>
+        <p>Docking protocol validated on active vs. decoy sets prior to candidate ranking: <strong>MMP-9 (1GKC) ROC-AUC = 0.84</strong> | <strong>COX-2 (5IKR) ROC-AUC = 0.81</strong>.</p>
+      </div>
+      <div class="card">
+        <h3>3. Honest Limitations &amp; Glycoside Nuance</h3>
+        <p>Explicitly documents why high-TPSA C-glycosides (Orientin, Vitexin) act locally/topically in wounds or require deglycosylation rather than passive oral absorption.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    Author: Kumudini Dev Narayan Jha | Licences: MIT (Code) &amp; CC BY 4.0 (Data) | Research &amp; Educational Use Only
+  </footer>
+</body>
+</html>
